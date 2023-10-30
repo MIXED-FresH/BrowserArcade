@@ -7,7 +7,7 @@ struct Position
 };
 
 class Entity {
-private:
+protected:
 	Position pos;
 	const std::string name;
 	const bool crossAbility;
@@ -15,9 +15,9 @@ public:
 	Entity(Position pos, std::string objName, bool crossAbility) :
 		pos(pos), name(objName), crossAbility(crossAbility) {};
 	
-	Position getPosition();
-	std::string getName();
-	bool isCrossible();
+	Position getPosition() const;
+	std::string getName() const;
+	bool isCrossible() const;
 
 	void setPosition(int X, int Y);
 	void setPosition(Position pos);
