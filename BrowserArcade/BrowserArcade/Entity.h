@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 struct Position
 {
 	int X;
@@ -7,15 +8,16 @@ struct Position
 
 class Entity {
 private:
-	int positionX;
-	int positionY;
-	const bool movementAbility;
+	Position pos;
+	const std::string name;
+	const bool crossAbility;
 public:
-	Entity(int posX, int posY, bool movAbility) :
-		positionX(posX), positionY(posY), movementAbility(movAbility) {};
+	Entity(Position pos, std::string objName, bool crossAbility) :
+		pos(pos), name(objName), crossAbility(crossAbility) {};
 	
 	Position getPosition();
-	bool isMovable();
+	std::string getName();
+	bool isCrossible();
 
 	void setPosition(int X, int Y);
 	void setPosition(Position pos);
