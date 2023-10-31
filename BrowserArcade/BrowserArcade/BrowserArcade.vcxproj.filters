@@ -27,5 +27,8 @@
     <ClInclude Include="SkipLevelBlock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DestructibleBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

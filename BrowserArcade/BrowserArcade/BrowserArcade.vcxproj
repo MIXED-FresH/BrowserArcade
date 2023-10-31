@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="DamageBlock.h" />
+    <ClInclude Include="DestructibleBlock.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="SkipLevelBlock.h" />
   </ItemGroup>
