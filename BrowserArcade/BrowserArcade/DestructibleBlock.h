@@ -9,5 +9,5 @@ public:
         Block(pos, objName, crossAbility), healthPoints(hp) {}
 
     // returns true if block should be destroyed
-    bool changeHp(short);
+    bool changeHp(short damage);
 };

@@ -8,5 +8,5 @@ public:
     SkipLevelBlock(Position pos, std::string objName, bool crossAbility, unsigned short skipAmount)
         : Block(pos, objName, crossAbility), skipLevelAmount(skipAmount) {}
 
-    unsigned short getSkipLevelAmount();
+    unsigned short getSkipLevelAmount() const;
 };

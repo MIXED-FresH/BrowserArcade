@@ -30,5 +30,8 @@
     <ClInclude Include="DestructibleBlock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DoorBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
