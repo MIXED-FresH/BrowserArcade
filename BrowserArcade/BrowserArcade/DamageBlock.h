@@ -3,10 +3,10 @@
 
 class DamageBlock : public Block {
 private:
-    const int damage;
+    const unsigned short damage;
 public:
-    DamageBlock(Position pos, std::string objName, bool crossAbility, int damage) :
-        Block(pos, objName, crossAbility), damage(damage) {};
+    DamageBlock(Position pos, std::string objName, bool crossAbility, unsigned short damage) :
+        Block(pos, objName, crossAbility), damage(damage) {}
 
-    int getDamage() const;
+    unsigned short getDamage() const;
 };

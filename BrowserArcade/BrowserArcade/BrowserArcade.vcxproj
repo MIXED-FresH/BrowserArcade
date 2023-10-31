@@ -22,6 +22,7 @@
     <ClInclude Include="Block.h" />
     <ClInclude Include="DamageBlock.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="SkipLevelBlock.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
