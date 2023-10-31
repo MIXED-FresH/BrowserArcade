@@ -27,6 +27,9 @@
     <ClInclude Include="SkipBlockManager.h" />
     <ClInclude Include="SkipLevelBlock.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

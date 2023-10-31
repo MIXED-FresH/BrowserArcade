@@ -3,6 +3,7 @@
 #include "SkipLevelBlock.h"
 
 class SkipBlockManager{
+    friend SkipLevelBlock;
 private:
     std::vector<Position> skipLevelBlocksPositions;
     std::vector<SkipLevelBlock*> skipLevelBlocksPointers;

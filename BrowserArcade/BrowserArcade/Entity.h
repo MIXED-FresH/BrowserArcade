@@ -21,5 +21,5 @@ public:
 	bool isCrossible() const;
 
 	void setPosition(unsigned int X, unsigned int Y);
-	void setPosition(Position pos);
+	void setPosition(Position &pos);
 };
