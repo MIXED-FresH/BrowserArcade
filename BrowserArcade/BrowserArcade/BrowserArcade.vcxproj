@@ -24,6 +24,7 @@
     <ClInclude Include="DestructibleBlock.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="DoorBlock.h" />
+    <ClInclude Include="SkipBlockManager.h" />
     <ClInclude Include="SkipLevelBlock.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
