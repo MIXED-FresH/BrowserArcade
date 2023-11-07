@@ -1,14 +1,14 @@
 #include "Entity.h"
 
-Position Entity::getPosition() const{
+Position Entity::getPosition() const {
     return pos;
 }
 
-std::string Entity::getName() const{
+std::string Entity::getName() const {
     return name;
 }
 
-bool Entity::isCrossible() const{
+bool Entity::isCrossible() const {
     return crossAbility;
 }
 

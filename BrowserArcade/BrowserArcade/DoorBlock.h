@@ -3,10 +3,10 @@
 
 class DoorBlock : public Block {
 private:
-    bool isOpen;
+    bool isOpenState;
 public:
     DoorBlock(Position pos, std::string objName, bool crossAbility, bool isOpen = false) :
-        Block(pos, objName, crossAbility), isOpen(isOpen) {}
+        Block(pos, objName, crossAbility), isOpenState(isOpen) {}
 
     bool isOpen() const;
     void changeState();
