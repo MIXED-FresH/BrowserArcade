@@ -20,12 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
+    <ClInclude Include="Creature.h" />
     <ClInclude Include="DamageBlock.h" />
     <ClInclude Include="DestructibleBlock.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="DoorBlock.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="SkipBlockManager.h" />
     <ClInclude Include="SkipLevelBlock.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DamageBlock.cpp" />
