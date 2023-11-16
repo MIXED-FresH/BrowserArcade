@@ -29,6 +29,7 @@
     <ClInclude Include="Equipment.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="MapGenerator.h" />
     <ClInclude Include="SkipBlockManager.h" />
     <ClInclude Include="SkipLevelBlock.h" />
     <ClInclude Include="Weapon.h" />
